@@ -5,7 +5,7 @@ import org.scalajs.dom
 import org.scalajs.dom.Element
 import scalatags.JsDom.all._
 
-class data {
+class nodes {
   implicit class mRxStringFrag(rx: Rx[String]) extends Frag {
     def render: dom.Text = {
       val node = dom.document.createTextNode(rx.)
